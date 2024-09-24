@@ -18,9 +18,10 @@ def maximo_matriz(matriz):
     Recibe una lista de listas y devuelve el valor máximo.
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
+    maximos = []
     for filas in matriz:
         maximos = max(filas).append()
-    return
+    return maximos
     maximo = max(maximos)
 
 # Ejercicio 3: Verificar si un número es primo
