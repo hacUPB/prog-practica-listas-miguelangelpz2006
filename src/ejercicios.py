@@ -20,10 +20,12 @@ def maximo_matriz(matriz):
     """
     maximos = []
     for filas in matriz:
-        maximos == max(filas).append()
-    return maximos
-    maximo = max(maximos)
+        m = max(filas)
+        maximos.append(m)
+    mm = max(maximos)
+    return mm
 
+    return maximos
 # Ejercicio 3: Verificar si un número es primo
 def es_primo(n):
     """
