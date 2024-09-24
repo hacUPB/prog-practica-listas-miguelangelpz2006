@@ -20,7 +20,7 @@ def maximo_matriz(matriz):
     """
     maximos = []
     for filas in matriz:
-        maximos = max(filas).append()
+        maximos == max(filas).append()
     return maximos
     maximo = max(maximos)
 
