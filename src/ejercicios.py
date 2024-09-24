@@ -4,7 +4,13 @@ def suma_matriz(matriz):
     Recibe una lista de listas y devuelve la suma de todos sus elementos.
     Incluir el código aquí para sumar los elementos de la matriz.
     """
-    pass
+    suma = 0
+
+    for filas in matriz:
+        for datos in filas:
+            suma += datos
+    return suma
+
 
 # Ejercicio 2: Encontrar el valor máximo en una matriz
 def maximo_matriz(matriz):
@@ -12,7 +18,7 @@ def maximo_matriz(matriz):
     Recibe una lista de listas y devuelve el valor máximo.
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
-    pass
+    
 
 # Ejercicio 3: Verificar si un número es primo
 def es_primo(n):
