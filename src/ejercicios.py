@@ -32,7 +32,13 @@ def es_primo(n):
     Recibe un número y devuelve True si es primo, False en caso contrario.
     Incluir el código aquí para determinar si un número es primo.
     """
-    pass
+    numero = int(input("ponga un numero"))
+    for i in range (2,"numero"):
+        if numero%i == 0:
+            if i == numero:
+                return True 
+        elif return False
+
 
 # Ejercicio 4: Transponer una matriz
 def transponer_matriz(matriz):
