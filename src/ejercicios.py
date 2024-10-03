@@ -34,10 +34,9 @@ def es_primo(n):
     """
     numero = int(input("ponga un numero"))
     for i in range (2,"numero"):
-        if numero%i == 0:
-            if i == numero:
-                return True 
-        elif return False
+        if numero%i != 0:
+            elif return True 
+        return False 
 
 
 # Ejercicio 4: Transponer una matriz
